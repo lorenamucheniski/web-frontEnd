@@ -1,0 +1,61 @@
+body {
+    margin-left: 70px;
+    margin-right: 70px;
+    padding: 0;
+    border: 2px solid black;
+}
+
+.h1-header {
+    width: auto;
+    text-align: center;
+    background-color:  #db8981 ;
+    padding: 15px;
+    border-bottom: 1px solid black;
+}
+
+.personal-data {
+    width: auto;
+    border-bottom: 1px solid black;
+}
+
+.ul-personal-data {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 50px;
+    list-style: none;
+}
+
+.div-goal {
+    margin-top: -10px;
+    display: block;
+    text-align: center;
+    padding-bottom: 3px;
+    border-bottom: 1px solid black;
+}
+
+.professional-experience {
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid black;
+
+}
+
+.training {
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid black;
+
+}
+
+.courses-specializations {
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.font {
+    font-family: 'Nanum Gothic Coding', monospace;
+}
