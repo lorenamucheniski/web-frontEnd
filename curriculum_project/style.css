@@ -67,3 +67,8 @@ body {
 h2 {
     text-decoration: underline;
 }
+
+.upper {
+    text-transform: uppercase;
+    font-weight: bold;
+}
