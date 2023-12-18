@@ -1,6 +1,6 @@
 body {
-    margin-left: 70px;
-    margin-right: 70px;
+    margin-left: 150;
+    margin-right: 150px;
     padding: 0;
     border: 2px solid black;
 }
@@ -31,31 +31,39 @@ body {
 .div-goal {
     margin-top: -10px;
     display: block;
-    text-align: center;
+    text-align: left;
     padding-bottom: 3px;
     border-bottom: 1px solid black;
+    padding-left: 15px;
 }
 
 .professional-experience {
     display: block;
-    text-align: center;
+    text-align: left;
     border-bottom: 1px solid black;
+    padding-left: 15px;
 
 }
 
 .training {
     display: block;
-    text-align: center;
+    text-align: left;
     border-bottom: 1px solid black;
+    padding-left: 15px;
 
 }
 
 .courses-specializations {
     display: block;
-    text-align: center;
+    text-align: left;
     border-bottom: 1px solid black;
+    padding-left: 15px;
 }
 
 .font {
     font-family: 'Nanum Gothic Coding', monospace;
+}
+
+h2 {
+    text-decoration: underline;
 }
