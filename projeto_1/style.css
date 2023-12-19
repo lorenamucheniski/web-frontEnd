@@ -32,19 +32,28 @@ header {
 }
 
 .ul-menu a {
-    color: white
+    color: white;
+    text-decoration: none;
 }
 
 .h2-header {
     font-size: 50px;
+    font-family: 'Cormorant', serif;
     margin-left: 80px;
     margin-top: 180px;
+}
+
+.h3-header {
+    margin-left: 130px;
+    margin-top: 60px;
+    font-size: 20px;
+    font-family: 'Cormorant', serif;
 }
 
 .article {
     background-color:whitesmoke;
     margin: 20px 80px 20px 80px;
-    padding: 2px 5px 2px 5px;
+    padding: 2px 5px 10px 5px;
     border-radius: 3px;
 }
 
@@ -53,7 +62,17 @@ header {
     padding: 5px;
     margin-left: 5px;
     margin-right: 5px;
+    box-shadow: 1px 1px 1px 1px rgb(54, 51, 51);
 }
+
+.know-more {
+    padding: 5px;
+    background-color:#ddc8ff;
+    font-family: 'Amaranth', sans-serif;
+    font-size: 13px;
+
+}
+
 
 footer {
     background-color: whitesmoke;
