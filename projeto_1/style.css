@@ -1,0 +1,34 @@
+body {
+    background-color: blueviolet;
+    margin: 0;
+    padding: 0  ;
+}
+
+header {
+
+}
+
+.sec-one {
+    background-image:url(img/bg-1.jpg);
+    background-size: 100%;
+    height: 550px;
+    margin-top: -16px;
+}
+
+.ul-menu {
+    display: flex;
+    gap: 20px;
+    justify-content: left;
+    padding-top: 10px
+}
+
+.ul-menu li {
+    list-style: none;
+    background-color: brown;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.ul-menu a {
+}
