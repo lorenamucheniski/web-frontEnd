@@ -1,16 +1,17 @@
 body {
-    background-color: blueviolet;
+    background-color:#717978    ;
     margin: 0;
     padding: 0  ;
 }
 
 header {
-
+    display: block;
 }
 
 .sec-one {
     background-image:url(img/bg-1.jpg);
     background-size: 100%;
+    border-bottom: 1px solid black;
     height: 550px;
     margin-top: -16px;
 }
@@ -31,4 +32,32 @@ header {
 }
 
 .ul-menu a {
+    color: white
+}
+
+.h2-header {
+    font-size: 50px;
+    margin-left: 80px;
+    margin-top: 180px;
+}
+
+.article {
+    background-color:whitesmoke;
+    margin: 20px 80px 20px 80px;
+    padding: 2px 5px 2px 5px;
+    border-radius: 3px;
+}
+
+.h3-article {
+    background-color: #ddc8ff;
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+footer {
+    background-color: whitesmoke;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
