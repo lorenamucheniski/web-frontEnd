@@ -1,45 +1,60 @@
 body {
-    background-color: rgb(212, 11, 152);
+    background-color: rgb(137, 197, 216);
 
 }
 
 .flex-container {
-    background-color: chartreuse;
+    background-color:darkcyan;
     display: flex;
     flex-direction: column;
-    align-items: center;
     width: 400px;
     height: 400px;
     position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
     overflow: hidden;
     overflow-y: scroll;
-    
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    font-family: 'Kaisei Tokumin', serif;
 }
 
 .flex-item {
     display: flex;
     background-color: white;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid darkgrey;
     width: 390px;
     height: 100px;
     padding-left: 15px;
-    justify-content: space-evenly;
+    justify-content:flex-start;
     flex-direction: column;
     flex-wrap: wrap;
 }
 
+header h1 {
+    color: white;
+    justify-content: center;
+    padding-left: 75px;
+}
+
 h1 {
-    font-size: 22px;
+    display: flex;
+    font-size: 18px;
+    margin-right: 90px;
 
 }
 
 h2 {
-    font-size: 15px;
+    display: flex;
+    font-size: 13px;
+    margin-top: -10px;
+    margin-right: 90px;
+    color: rgb(0, 0, 0, 0.7);
 }
 
 img {
+    display: flex;
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    padding-left: 6px;
+    margin-top: 6px;
 }
