@@ -30,6 +30,7 @@ body {
 
 h1 {
     font-size: 22px;
+
 }
 
 h2 {
@@ -40,4 +41,5 @@ img {
     width: 60px;
     height: 60px;
     border-radius: 50%;
+    padding-left: 6px;
 }
