@@ -3,7 +3,7 @@ body {
 
 }
 
-.flex-container {
+.list-wrapper {
     background-color:darkcyan;
     display: flex;
     flex-direction: column;
@@ -11,55 +11,62 @@ body {
     height: 400px;
     position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
     overflow: hidden;
-    overflow-y: scroll;
-    border-bottom: 1px solid black;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
+    overflow-y: auto;
     font-family: 'Kaisei Tokumin', serif;
 }
 
-.flex-item {
+.list-item {
     display: flex;
     background-color: white;
     border-bottom: 1px solid darkgrey;
-    width: 390px;
+    width: auto;
     height: 100px;
-    padding-left: 15px;
-    justify-content:flex-start;
     flex-direction: column;
     flex-wrap: wrap;
 }
 
-header h1 {
+.list {
+    list-style: none;
+}
+
+
+h1 {
     color: white;
     justify-content: center;
-    padding-left: 75px;
+    margin-left: 80px;
+    font-size: 22px;
 }
 
 .flex-item2 {
+    width: 20px;
+    background-color: blue;
+    margin-top: 8px;
     display: flex;
     flex-direction: column;
+    align-items: end;
 }
 
 h1 {
-    display: flex;
+    background-color: brown;
     font-size: 18px;
-    margin-right: 90px;
 
 }
 
 h2 {
-    display: flex;
+    background-color: brown;
     font-size: 13px;
-    margin-top: -10px;
-    margin-right: 90px;
     color: rgb(0, 0, 0, 0.7);
 }
 
 img {
-    display: flex;
     width: 60px;
     height: 60px;
     border-radius: 50%;
     margin-top: 6px;
+}
+
+.flex-item2 i:hover {
+    color: red;
+    font-size: 110%;
+
 }
