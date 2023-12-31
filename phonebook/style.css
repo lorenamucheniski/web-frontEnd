@@ -34,7 +34,7 @@ body {
     background-color: white;
     border-bottom: 1px solid darkgrey;
     width: auto;
-    height: 80px;
+    height: 65px;
     flex-direction: column;
     flex-wrap: wrap;
     padding: 15px;
@@ -72,6 +72,15 @@ a:hover {
 }
 
 .list-item-content {
-    background-color: chartreuse;
+    line-height: 10px;
     flex-grow: 1;
+}
+
+.list-item-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5px;
+    gap: 10px;
 }
