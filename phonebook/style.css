@@ -1,18 +1,32 @@
+html, body {
+    height: 100%;
+}
+
 body {
     background-color: rgb(137, 197, 216);
+    font-family: 'Kaisei Tokumin', serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
 }
 
 .list-wrapper {
-    background-color:darkcyan;
     display: flex;
     flex-direction: column;
-    width: 400px;
-    height: 400px;
-    position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 400px;
+    max-height: 400px;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
     overflow: hidden;
     overflow-y: auto;
-    font-family: 'Kaisei Tokumin', serif;
+    border-radius: 5px;
 }
 
 .list-item {
@@ -20,53 +34,44 @@ body {
     background-color: white;
     border-bottom: 1px solid darkgrey;
     width: auto;
-    height: 100px;
+    height: 80px;
     flex-direction: column;
     flex-wrap: wrap;
+    padding: 15px;
 }
 
-.list {
-    list-style: none;
+.list-item:hover{
+    background-color: rgb(211, 208, 208);
 }
-
 
 h1 {
     color: white;
-    justify-content: center;
-    margin-left: 80px;
-    font-size: 22px;
+    font-size: 25px;
 }
 
-.flex-item2 {
-    width: 20px;
-    background-color: blue;
-    margin-top: 8px;
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-}
-
-h1 {
-    background-color: brown;
-    font-size: 18px;
-
-}
-
-h2 {
-    background-color: brown;
-    font-size: 13px;
-    color: rgb(0, 0, 0, 0.7);
-}
-
-img {
+.list-item-imagem img {
     width: 60px;
     height: 60px;
     border-radius: 50%;
     margin-top: 6px;
 }
 
-.flex-item2 i:hover {
+a:hover {
     color: red;
     font-size: 110%;
 
+}
+
+.list-item-name {
+    font-size: 17px;
+}
+
+.list-item-email {
+    font-size: 13px;
+    color: rgb(97, 93, 93);
+}
+
+.list-item-content {
+    background-color: chartreuse;
+    flex-grow: 1;
 }
