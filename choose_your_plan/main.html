@@ -58,6 +58,56 @@
         .planos {
             display: flex;
             justify-content: center;
+            gap: 20px;
+        }
+
+        .planos-div {
+            display: flex;
+            flex-direction: column;
+            background-color: #141507;
+            width: 20%;
+            height: 300px;
+        }
+
+        .planos-h1 {
+            font-size: 2.2em;
+            margin-left: 20px;
+            color: white;
+        }
+
+        .planos-linha-horizontal {
+            width: 200px;
+            border: 1.5px solid #fff352;;
+            margin-left: 10%;
+        }
+
+        .planos-paragraph {
+            color: white;
+            font-size: 2em;
+            margin-left: 20px;
+        }
+
+        .planos-ul {
+            color: white;
+            font-size: 1.4em;
+            line-height: 25px;
+        }
+
+        .planos-span {
+            font-size: 1.2rem;
+        }
+
+        .planos-link {
+            border-radius: 5px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 2em;
+            color: black;
+            background-color: #fff352;
+            padding: 2px;
+            margin-left: 15%;
+            margin-right: 15%;
+            margin-top: 10%;
         }
 
 
@@ -84,14 +134,24 @@
     </div>
 
     <div class="planos">
-        <div>
-            <h1>Essencial</h1>
+        <div class="planos-div">
+            <h1 class="planos-h1">Essencial</h1>
+            <div class="planos-linha-horizontal"></div>
+            <p class="planos-paragraph"> R$ 3.95 <span class="planos-span">/mês</span></p>
+            <ul class="planos-ul">
+                <li>1 Website</li>
+                <li>1GB de armazenamento</li>
+                <li>10GB de trânsferência</li>
+            </ul>
+            <a href="#" class="planos-link">Assine já</a>
         </div>
-        <div>
-            <h1>Premium</h1>
+        <div class="planos-div">
+            <h1 class="planos-h1">Premium</h1>
+            <div class="linha-horizontal"></div>
         </div>
-        <div>
-            <h1>Gold</h1>
+        <div class="planos-div">
+            <h1 class="planos-h1">Gold</h1>
+            <div class="linha-horizontal"></div>
         </div>
     </div>
     
