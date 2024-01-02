@@ -3,9 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    
-    <style>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Malayalam&family=Assistant:wght@200&family=Kotta+One&family=Lexend:wght@300&family=Open+Sans&family=Rubik+Doodle+Shadow&display=swap" rel="stylesheet">
+   
+   <style>
         
         .color1 {color: #141507;}
             .color2 {color: #0f4e32;}
@@ -21,7 +27,6 @@
             background-color: #012716 ;
             padding: 0;
             margin: 0;
-            
         }
 
         header {
@@ -29,19 +34,33 @@
             justify-content: center;
             gap: 80px;
             background-color: #141507;
-            width: 600px;
+            width: 50%;
             align-items: center;
             margin-left: auto;
             margin-right: auto;
             color: white;
             font-size: 1.5em;
+            border-radius: 5px;
+            font-family: 'Lexend';
         }
 
         .ul-nav {
             display: flex;
             justify-content: center;
-            gap: 15px;
+            gap: 20px;
             list-style: none;
+        }
+
+        .ul-nav-link {
+            text-decoration: none;
+            color: white;
+        }
+
+        .ul-nav-link:hover {
+            background-color: #fff352;
+            padding: 5px;
+            border-radius: 5px;
+            color: black;
         }
 
         .first-div {
@@ -52,6 +71,7 @@
             margin-top: 3%;
             font-size: 2em;
             text-transform: uppercase;
+            font-family: 'BenchNine', 'Anek Malayalam', 'Open Sans', sans-serif;
 
         }
 
@@ -59,14 +79,18 @@
             display: flex;
             justify-content: center;
             gap: 20px;
+            margin-top: -2%;
+            font-family: 'BenchNine', 'Anek Malayalam', 'Open Sans', sans-serif;
         }
 
         .planos-div {
             display: flex;
             flex-direction: column;
-            background-color: #141507;
+            background-color: #3c3d2b;
             width: 20%;
-            height: 300px;
+            height: 320px;
+            border-radius: 5px;
+            margin-top: 40px;
         }
 
         .planos-h1 {
@@ -85,12 +109,15 @@
             color: white;
             font-size: 2em;
             margin-left: 20px;
+            margin-top: 5px;
         }
 
         .planos-ul {
             color: white;
             font-size: 1.4em;
             line-height: 25px;
+            margin-top: 0;
+            height: 45%;
         }
 
         .planos-span {
@@ -107,7 +134,46 @@
             padding: 2px;
             margin-left: 15%;
             margin-right: 15%;
-            margin-top: 10%;
+        }
+
+        .planos-link:hover {
+            box-shadow: 2px 2px 2px 2px black;
+        }
+
+        footer {
+            background: linear-gradient(to bottom, #141507, #162720) ;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            height: 5%;
+            display: flex;
+            justify-content: center;
+            font-family: 'Kotta One';
+        }
+
+        .ul-footer {
+            display: flex;
+            font-size: 2em;
+            margin-top: 5px;
+            list-style: none;
+            gap: 15px;
+        }
+
+        .li-footer {
+            color: white;
+        }
+
+        .li-footer a {
+          color: white;  
+        }
+
+        .li-footer a:hover {
+            color: yellow;
+        }
+
+        .follow {
+            font-size: 1.6rem; 
+            padding-right: 40px;
         }
 
 
@@ -121,10 +187,10 @@
         <h1>Myserver</h1>
         <nav>
             <ul class="ul-nav">
-                <li>Home</li>
-                <li>Planos</li>
-                <li>Suporte</li>
-                <li>Contato</li>
+                <li><a href="#" class="ul-nav-link">Home</a></li>
+                <li><a href="#" class="ul-nav-link">Planos</a></li>
+                <li><a href="#" class="ul-nav-link">Suporte</a></li>
+                <li><a href="#" class="ul-nav-link">Contatos</a></li>
             </ul>
         </nav>
     </header>
@@ -147,13 +213,44 @@
         </div>
         <div class="planos-div">
             <h1 class="planos-h1">Premium</h1>
-            <div class="linha-horizontal"></div>
+            <div class="planos-linha-horizontal"></div>
+            <p class="planos-paragraph"> R$ 7.95 <span class="planos-span">/mês</span></p>
+            <ul class="planos-ul">
+                <li>5 Websites</li>
+                <li>3GB de armazenamento</li>
+                <li>Trânsferência ilimitada</li>
+                <li>10 horas de suporte mensais</li>
+            </ul>
+            <a href="#" class="planos-link">Assine já</a>
         </div>
         <div class="planos-div">
             <h1 class="planos-h1">Gold</h1>
-            <div class="linha-horizontal"></div>
+            <div class="planos-linha-horizontal"></div>
+            <p class="planos-paragraph"> R$ 13.95 <span class="planos-span">/mês</span></p>
+            <ul class="planos-ul">
+                <li>5 Websites</li>
+                <li>30GB de armazenamento</li>
+                <li>Trânsferência ilimitada</li>
+                <li>30 horas de suporte mensais</li>
+                <li>Email personalizado</li>
+            </ul>
+            <a href="#" class="planos-link">Assine já</a>
         </div>
     </div>
+
+    <footer>
+        <ul class="ul-footer">
+            <li class="li-footer follow">Follow me</li>
+            <li class="li-footer">
+                <a href="https://www.linkedin.com/in/lorena-mucheniski-635bb5233/" target="_blank">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+            </li>
+            <li class="li-footer">
+                <a href="https://github.com/lorenamucheniski" target="_blank"><i class="bi bi-github"></i></a>
+            </li>
+        </ul>
+    </footer>
     
 </body>
 </html>
