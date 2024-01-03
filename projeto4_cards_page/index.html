@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,63 +15,103 @@
             background-image: url(img/bg-2.jpg);
             padding: 0;
             margin: 0;
-            width: 100%;
-            height: 100%;
         }
 
-        header {
-            display: flex;
-            justify-content: center;
+        .hero {
+            padding: 1px;
+        }
+
+
+        .hero-content {
+            margin: 100px auto 0;
+            width: 80%;
             color: white;
-            font-size: 4.2em;
-            font-weight: bold;
-            margin-left: auto;
-            margin-right: auto;
-            margin-top: 5%;
-            width: 50%; 
+            text-align: center;
+        }
+
+        .hero-content h1 {
             text-transform: uppercase;
             text-shadow: 2px 2px black;
+            font-size: 4em;
+            margin-bottom: 0;
         }
 
-        h1 {
-            background-color: rgb(0, 0 , 0, 0.5);
-            width: 33%;
-            height: 35px;
-            font-size: 1.8em;
-            margin-left: auto;
-            margin-right: auto;
-            text-align: center;
-            padding-top: 7px;
-            border-radius: 6px;
+        .hero-content h2 {
+            background-color: rgb(0, 0, 0, 0.7);
+            font-size: 2em;
+            padding: 6px;
+            display: inline-block;
             border-bottom: 2px solid white;
-            
         }
 
         .cards-section {
-            background-color: antiquewhite;
-            width: 50%;
-            height: 350px;
-            margin-left: auto;
-            margin-right: auto;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+            width: 710px;
+            margin: auto;
+            background-color: white;
+            padding: 10px;
         }
-    
+
+        .cards-article {
+            flex-basis: 200px;
+            flex-grow: 1;
+        }
+
+        .cards-article img {
+            width: 100%;
+            display: block;
+        }
+
+        .cards-paragraph {
+            background-color: rgb(50, 63, 63);
+            color: white;
+            font-size: 1.5em;
+            padding: 3px;
+            margin: 0;
+        }
 
     </style>
 
 </head>
+
 <body>
-    <header> cursos serfrontend</header>
-
-    <h1>Tudo o que você precisa saber para iniciar na carreira</h1>
-
+    <header class="hero">
+        <div class="hero-content">
+            <h1>cursos serfrontend</h1>
+            <h2>Tudo o que você precisa saber para iniciar na carreira</h2>
+        </div>
+    </header>
     <main>
         <section class="cards-section">
-            <article>
+            <article class="cards-article">
                 <img src="img/card_01.png" alt="">
-                <p>Seletores</p>
+                <p class="cards-paragraph">Seletores</p>
+            </article>
+            <article class="cards-article">
+                <img src="img/card_02.jpg" alt="">
+                <p class="cards-paragraph">Posicionamento</p>
+            </article>
+            <article class="cards-article">
+                <img src="img/card_03.jpg" alt="">
+                <p class="cards-paragraph">Fontes</p>
+            </article>
+            <article class="cards-article">
+                <img src="img/card_04.jpg" alt="">
+                <p class="cards-paragraph">Flexbox</p>
+            </article>
+            <article class="cards-article">
+                <img src="img/card_05.jpg" alt="">
+                <p class="cards-paragraph">CSS Grid</p>
+            </article>
+            <article class="cards-article">
+                <img src="img/card_01.png" alt="">
+                <p class="cards-paragraph">Semântica</p>
             </article>
         </section>
     </main>
 
 </body>
+
 </html>
