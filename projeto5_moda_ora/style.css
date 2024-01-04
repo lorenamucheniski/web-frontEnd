@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Playfair+Display:ital@1&display=swap');
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    background-color: #162028;
+    height: 60px;
+    color: white;
+    font-size: 2em;
+}
+
+.hero h1 {
+    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+    position: relative;
+    left: 5em;
+}
+
+.hero-content {
+    position: relative;
+    left: 30em;
+}
+
+.hero-ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    gap: 4em;
+    width: 50ch;
+    padding: 0;
+    margin: 0;
+}
+
+.hero-ul a {
+    color: rgb(255, 255, 255, 0.3);
+    text-decoration: none;
+    font-family: 'Dosis', sans-serif;
+    transition-duration: .5s;
+}
+
+.hero-ul a:hover {
+    color: white;
+}
