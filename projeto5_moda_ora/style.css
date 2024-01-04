@@ -7,6 +7,7 @@ html {
 body {
     padding: 0;
     margin: 0;
+    width: 100%;
 }
 
 .hero {
@@ -50,4 +51,31 @@ body {
 
 .hero-ul a:hover {
     color: white;
+}
+
+.img-top img {
+    width: 100%;
+}
+
+.apresentacao {
+    margin-top: 20px;
+    height: 500px;
+}
+
+.apresentacao header {
+    font-size: 4em;
+    color: #162028;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+.apresentacao-div {
+    width: 50%;
+    margin: 80px auto 0;
+}
+
+.apresentacao p {
+    font-size: 1.6em;
+    text-align: center;
+    line-height: 1.5em;
 }
