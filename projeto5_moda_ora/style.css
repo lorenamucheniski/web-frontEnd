@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&display=swap');
 
 html {
     font-size: 62.5%;
@@ -7,20 +8,19 @@ html {
 body {
     padding: 0;
     margin: 0;
-    width: 100%;
 }
 
 .hero {
     display: flex;
     align-items: center;
-    background-color: #162028;
-    height: 60px;
+    height: 6em;
     color: white;
-    font-size: 2em;
+    background-color: #162028;
 }
 
 .hero h1 {
     text-transform: uppercase;
+    font-size: 4em;
     font-family: 'Playfair Display', serif;
     position: relative;
     left: 5em;
@@ -28,7 +28,7 @@ body {
 
 .hero-content {
     position: relative;
-    left: 30em;
+    left: 62em;
 }
 
 .hero-ul {
@@ -36,10 +36,10 @@ body {
     display: flex;
     align-items: center;
     text-transform: uppercase;
-    gap: 4em;
-    width: 50ch;
+    width: 22em;
     padding: 0;
-    margin: 0;
+    gap: 4em;
+    font-size: 2em;
 }
 
 .hero-ul a {
@@ -70,12 +70,15 @@ body {
 }
 
 .apresentacao-div {
-    width: 50%;
-    margin: 80px auto 0;
+    width: 60%;
+    margin: 60px auto 0;
+    color: #162028cb;
+    font-weight: bold;
 }
 
 .apresentacao p {
     font-size: 1.6em;
     text-align: center;
-    line-height: 1.5em;
+    line-height: 1.8em;
+    font-family: 'Baskervville', serif;
 }
