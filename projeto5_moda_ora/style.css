@@ -76,9 +76,21 @@ body {
     font-weight: bold;
 }
 
-.apresentacao p {
+.apresentacao-p {
     font-size: 1.6em;
     text-align: center;
     line-height: 1.8em;
     font-family: 'Baskervville', serif;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    outline: 1px solid red;
+    width: 70%;
+    margin: 40px auto 0;
+}
+
+.cards-content {
+    text-align: center;
 }
