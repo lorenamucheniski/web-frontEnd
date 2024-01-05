@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Playfair+Display:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Baskervville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
 
 html {
     font-size: 62.5%;
@@ -86,11 +87,20 @@ body {
 .cards {
     display: flex;
     justify-content: space-between;
-    outline: 1px solid red;
     width: 70%;
     margin: 40px auto 0;
 }
 
 .cards-content {
     text-align: center;
+    text-transform: uppercase;
+    font-size: 1.6em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.cards-p {
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    font-weight: normal;
 }
