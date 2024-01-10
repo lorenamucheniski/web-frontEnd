@@ -2,22 +2,22 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="login.css">
 
     <title>Login</title>
 </head>
 <body>
     <h1>Login</h1>
     <form action="#" method="post">
-        <fieldset>
+        <fieldset><!--usado para agrupar elementos dentro do formulário-->
             <legend>Login</legend>
 
             <label for="user">Usuário</label>
-            <input type="text" id="user" required autofocus>
-
+            <input type="text" id="user" required autofocus><!--entrada de dados de usuário-->
+            <!--required= campo obrigatório | autofocus= o cursor já se inicia automaticamente nesse campo-->
             <label for="pass">Senha</label>
-            <input type="password" id="pass" required>
-
-            <input type="submit" value="Enviar">
+            <input type="password" id="pass" required><!--senha do usuário-->                                
+            <input type="submit" value="Enviar"><!--botão de enviar-->
         </fieldset>
     </form>
 </body>

@@ -1,0 +1,44 @@
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    background-color:darkgray;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family:'Times New Roman', Times, serif;
+}
+
+form {
+    background-color: dimgray;
+    color: white;
+    width: 25em;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px;
+    font-size: 1.6em;
+    text-align: center;
+}
+
+fieldset {
+    border:none;
+}
+
+label {
+    margin-bottom: .3em;
+    margin-top: .2em;
+}
+
+input {
+    padding: .8em;
+    border-radius: 4px;
+}
+
+input, label {
+    display: block;  /* display block para alinhar os itens em coluna, um abaixo do outro*/
+    width: 100%;
+    box-sizing: border-box; /*o tamanho do elemento irá até a borda*/
+}
