@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="login.css">
 
     <title>Login</title>
 </head>
+
 <body>
     <h1>Login</h1>
     <form action="#" method="post">
@@ -16,10 +18,24 @@
             <input type="text" id="user" required autofocus><!--entrada de dados de usuário-->
             <!--required= campo obrigatório | autofocus= o cursor já se inicia automaticamente nesse campo-->
             <label for="pass">Senha</label>
-            <input type="password" id="pass" required><!--senha do usuário--> 
-                                          
-            <input type="submit" value="Enviar"><!--botão de enviar-->
+            <input type="password" id="pass" required><!--senha do usuário-->
+
+            <div class="botoes">
+                <input type="reset" value="Apagar" class="botao2">
+                <input type="submit" value="Enviar" class="botao"><!--botão de enviar-->
+            </div>
         </fieldset>
     </form>
+
+    <script src="login.js"></script>
 </body>
+
 </html>
+
+<!-- Anotações -->
+<!-- 
+maxlenght = define a quantidade de caracteres que podem ser inseridos
+placeholder = coloca uma pequena descrição no input
+min e max = valores minimos e maximos aceitos
+
+-->

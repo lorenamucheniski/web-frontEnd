@@ -55,3 +55,26 @@ legend {
     font-size: 1.1em;
     font-weight: bold;
 }
+
+.botao {
+    background-color: midnightblue;
+    color: white;
+}
+
+.botao:hover {
+    box-shadow: 2px 2px 2px;
+}
+
+.botao2 {
+    background-color: midnightblue;
+    color: white; 
+}
+
+.botao2:hover {
+    box-shadow: 2px 2px 2px;
+}
+
+.botoes {
+    display: flex;
+    gap: 3em;
+}
