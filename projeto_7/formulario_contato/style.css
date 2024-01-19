@@ -1,0 +1,61 @@
+body {
+    margin: 10vh auto 0;
+    padding: 0;
+    background-color: rgb(17, 17, 17);
+    color: rgba(255, 255, 255, 0.801);
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+legend {
+    text-align: center;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+fieldset {
+    background-color: rgb(29, 28, 28);
+    width: 20em;
+    height: 25em;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: .5em;
+    border-radius: 5px;
+}
+
+input, textarea {
+    background-color: rgb(43, 43, 41);
+    margin-bottom: 1em;
+    padding: .5em;
+    border-bottom: 2px solid transparent;
+    border-bottom: 2px solid wheat;
+}
+
+input:focus, textarea:focus {
+    background-color: white;
+    color: black;
+}
+
+label {
+    margin-bottom: 3px;
+}
+
+.bnt {
+    width: fit-content;
+    background-color: darkgrey;
+    align-self: flex-end;
+    border-radius: 2px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input:invalid {
+    
+}
+
+input:valid {
+
+}
