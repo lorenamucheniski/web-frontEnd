@@ -2,6 +2,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 0;
     margin: 0;
+    font-size: 15px;
 }
 
 .card_header img {
@@ -46,9 +47,31 @@ body {
     flex-direction: column;
 }
 
-@media screen and (min-width: 50em) {
+/*transformando o card_wrapper em container*/
+.cards_wapper {
+    container-type: inline-size;
+}
+
+
+/*@media screen and (min-width: 50em)*/
+@container (min-width: 33.33em) {
     
     .card {
-    flex-direction: row;
+        flex-direction: row;
+    }
+
+    .card_header img {
+        max-height: initial;
+    }
+
+    .card_wrapper {
+        flex-grow: 1;
+    }
+    
+}
+
+@container (min-width: 66.66em) {
+    .card {
+        flex-direction: column;
     }
 }
