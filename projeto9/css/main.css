@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    --cor1: #6b4862;
+    --cor1_transparente: #6b486260;
+    --cor2: #8e7577;
+    --cor3: #d4b7b6;
+    --cor4: #148484;
+    --cor5: #f6f8e9;
+}
+
+.top_header {
+    width: 100%;
+    background-image: url(/projeto9/img/topo.jpg);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: cover;
+    /*para que a imagem pegue todo o elemento*/
+    background-attachment: initial;
+}
+
+.top_header h2 {
+    padding-top: 2em;
+    font-size: 1.6em;
+    text-align: center;
+}
+
+.top_header h1 {
+    font-size: 3.5em;
+    text-align: center;
+    padding: 1em;
+    color: var(--cor1);
+}
+
+.top_header_nav {
+    text-align: center;
+    width: 100%;
+}
+
+.top_header_nav li {
+    list-style: none;
+}
+
+.top_header_nav a {
+    justify-content: space-between;
+    text-decoration: none;
+    font-size: 2em;
+    padding: 1em;
+    display: block;
+}
+
+.top_header li a:hover {
+    background-color: var(--cor1_transparente);
+    font-weight: bold;
+}
+
+.top_div {
+    text-align: center;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.top_div h2 {
+    font-size: 2.5em;
+    padding-top: 1em;
+}
+
+.top_div h3 {
+    max-width: 53.125em;
+    font-size: 1.5em;
+    padding-top: 1em;
+}
+
+@media screen and (min-width: 43.75em) {
+    .top_header {
+        display: flex;
+        align-items: center;
+        background-image: none;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.555);
+    }
+
+    .top_header_nav {
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+
+    .top_header ul {
+        display: flex;
+    }
+
+    .top_header_nav a {
+        border-radius: .5em;
+    }
+
+    .top_div {
+        height: 30em;
+        background-image: url(/projeto9/img/topo.jpg);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: cover;
+        /*para que a imagem pegue todo o elemento*/
+        background-attachment: initial;
+    }
+
+
+}
