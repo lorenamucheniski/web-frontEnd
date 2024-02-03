@@ -15,7 +15,6 @@
 }
 
 .top_header {
-    width: 100%;
     background-image: url(/projeto9/img/topo.jpg);
     background-repeat: no-repeat;
     background-position: left bottom;
@@ -65,6 +64,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    color: var(--cor1);
 
 }
 
@@ -73,18 +74,47 @@
     padding-top: 1em;
 }
 
-.top_div h3 {
-    max-width: 53.125em;
+.top_div a {
+    text-decoration: none;
+    border: 1px solid rgba(0, 0, 0, 0.486);
+    border-radius: .1em;
+    background-color: var(--cor4);
+    color: white;
+    padding: .5em 1.5em;
+    margin-top: 1.5em;
     font-size: 1.5em;
-    padding-top: 1em;
 }
 
-@media screen and (min-width: 43.75em) {
+.fontes {
+    font-size: 1.5em;
+    max-width: 68.75em;
+    padding: 1em;
+    text-align: center;
+
+}
+
+.section_hospedagem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3em;
+    color: var(--cor1);
+}
+
+.section_hospedagem i {
+    font-size: 6em;
+}
+
+.section_hospedagem h3 {
+    font-size: 3em;
+
+}
+
+@media screen and (min-width: 46.875em) {
     .top_header {
         display: flex;
         align-items: center;
         background-image: none;
-        border-bottom: 1px solid rgba(0, 0, 0, 0.555);
     }
 
     .top_header_nav {
@@ -103,13 +133,12 @@
 
     .top_div {
         height: 30em;
-        background-image: url(/projeto9/img/topo.jpg);
-        background-repeat: no-repeat;
-        background-position: bottom;
-        background-size: cover;
-        /*para que a imagem pegue todo o elemento*/
-        background-attachment: initial;
+        background: linear-gradient(311deg, rgba(176, 237, 210, 1) 2%, rgba(241, 137, 230, 1) 80%, rgba(218, 83, 237, 1) 96%);
+        color: white;
+        justify-content: space-evenly;
+        text-shadow: 1px 1px black;
     }
 
-
 }
+
+@media screen and (min-width: 56.25em) {}
