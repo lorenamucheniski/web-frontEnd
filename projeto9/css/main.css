@@ -85,7 +85,7 @@
     font-size: 1.5em;
 }
 
-.fontes {
+.fonte_padrao {
     font-size: 1.5em;
     max-width: 68.75em;
     padding: 1em;
@@ -93,7 +93,7 @@
 
 }
 
-.section_hospedagem {
+.section_main {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -101,12 +101,12 @@
     color: var(--cor1);
 }
 
-.section_hospedagem i {
-    font-size: 6em;
+.section_main i {
+    font-size: 4em;
 }
 
-.section_hospedagem h3 {
-    font-size: 3em;
+.section_main h3 {
+    font-size: 2em;
 
 }
 
@@ -134,9 +134,20 @@
     .top_div {
         height: 30em;
         background: linear-gradient(311deg, rgba(176, 237, 210, 1) 2%, rgba(241, 137, 230, 1) 80%, rgba(218, 83, 237, 1) 96%);
-        color: white;
+        color: black;
         justify-content: space-evenly;
-        text-shadow: 1px 1px black;
+    }
+
+    .section_main {
+        max-width: 50em;
+    }
+
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 5em;
     }
 
 }
