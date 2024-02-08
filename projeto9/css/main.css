@@ -66,6 +66,7 @@
     align-items: center;
     justify-content: center;
     color: var(--cor1);
+    margin-bottom: 2em;
 
 }
 
@@ -81,7 +82,7 @@
     background-color: var(--cor4);
     color: white;
     padding: .5em 1.5em;
-    margin-top: 1.5em;
+    margin-top: 3em;
     font-size: 1.5em;
 }
 
@@ -94,11 +95,13 @@
 }
 
 .section_main {
+    max-width: 50em;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 3em;
     color: var(--cor1);
+    flex-grow: 1;
 }
 
 .section_main i {
@@ -108,6 +111,14 @@
 .section_main h3 {
     font-size: 2em;
 
+}
+
+main {
+    max-width: 210em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
 }
 
 @media screen and (min-width: 46.875em) {
@@ -132,24 +143,29 @@
     }
 
     .top_div {
-        height: 30em;
-        background: linear-gradient(311deg, rgba(176, 237, 210, 1) 2%, rgba(241, 137, 230, 1) 80%, rgba(218, 83, 237, 1) 96%);
+        height: 40em;
         color: black;
         justify-content: space-evenly;
     }
 
-    .section_main {
-        max-width: 50em;
-    }
-
-    main {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-        gap: 5em;
+    .top_div {
+        background-image: url(/projeto9/img/top_2.jpeg);
+        background-position: center;
     }
 
 }
 
-@media screen and (min-width: 56.25em) {}
+@media screen and (min-width: 65.625em) {
+    main {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5em;
+    }
+
+    .top_div {
+        height: 70em;
+    }
+
+
+}
