@@ -196,5 +196,17 @@ main {
         font-size: 2em;
     }
 
+    .suites:nth-child(1) {
+    transform: translate(-20em);
+    }
+
+    .suites:nth-child(2) {
+        transform: translate(20em, -10em);
+    }
+
+    .suites:nth-child(3) {
+        transform: translate(-20em, -20em);
+    }
+
 
 }
