@@ -15,12 +15,11 @@
 }
 
 .top_header {
-    background-image: url(/projeto9/img/topo.jpg);
+    background-image: url(/projeto9/img/top_2.jpeg);
     background-repeat: no-repeat;
-    background-position: left bottom;
-    background-size: cover;
+    background-position: bottom;
     /*para que a imagem pegue todo o elemento*/
-    background-attachment: initial;
+    background-attachment: fixed;
 }
 
 .top_header h2 {
@@ -144,6 +143,39 @@ main {
     font-size: 3em;
 }
 
+.cadastro h1 {
+    font-size: 2em;
+    text-align: center;
+    color: var(--cor1);
+}
+
+.cadastro fieldset {
+    border: none;
+}
+
+.cadastro form {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    outline: 1px solid red;
+    padding: 1em;
+    color: var(--cor1);
+    max-width: 50em;
+}
+
+.cadastro input {
+    width: 100%;
+    padding: .5em;
+}
+
+.cadastro label {
+    padding-top: .5em;
+}
+.cadastro label, input {
+    font-size: 1.5em;
+}
+
 @media screen and (min-width: 46.875em) {
     .top_header {
         display: flex;
@@ -169,13 +201,11 @@ main {
         height: 40em;
         color: black;
         justify-content: space-evenly;
-    }
-
-    .top_div {
         background-image: url(/projeto9/img/top_2.jpeg);
         background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
-
 }
 
 @media screen and (min-width: 65.625em) {
@@ -210,4 +240,12 @@ main {
     }
 
 
+}
+
+@media screen and (min-width: 125em) {
+    .top_div {
+        background-attachment: fixed;
+        background-position: bottom;
+    }
+    
 }
