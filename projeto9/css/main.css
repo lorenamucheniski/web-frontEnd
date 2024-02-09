@@ -143,6 +143,10 @@ main {
     font-size: 3em;
 }
 
+.cadastro {
+    padding-top: 2em;
+}
+
 .cadastro h1 {
     font-size: 2em;
     text-align: center;
@@ -158,7 +162,6 @@ main {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    outline: 1px solid red;
     padding: 1em;
     color: var(--cor1);
     max-width: 50em;
@@ -167,13 +170,26 @@ main {
 .cadastro input {
     width: 100%;
     padding: .5em;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid var(--cor1_transparente);
+    outline: none;
 }
 
 .cadastro label {
     padding-top: .5em;
 }
-.cadastro label, input {
+.cadastro label, input, button {
     font-size: 1.5em;
+}
+
+.cadastro button {
+    width: fit-content;
+    padding: .5em 1em;
+    align-self: flex-end;
+    margin-top: 1em;
+
 }
 
 @media screen and (min-width: 46.875em) {
@@ -240,12 +256,4 @@ main {
     }
 
 
-}
-
-@media screen and (min-width: 125em) {
-    .top_div {
-        background-attachment: fixed;
-        background-position: bottom;
-    }
-    
 }
