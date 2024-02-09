@@ -66,6 +66,7 @@
     align-items: center;
     justify-content: space-evenly;
     color: var(--cor1);
+    background-color: rgb(248, 241, 238);
 
 }
 
@@ -129,9 +130,9 @@ main {
 }
 
 .suites {
-    max-width: 65em;
+    max-width: 75em;
     text-align: center;
-
+    
 }
 
 .suites img {
@@ -196,16 +197,16 @@ main {
         font-size: 2em;
     }
 
-    .suites:nth-child(1) {
-    transform: translate(-20em);
+    .container_suites {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 10em;
     }
 
-    .suites:nth-child(2) {
-        transform: translate(20em, -10em);
-    }
-
-    .suites:nth-child(3) {
-        transform: translate(-20em, -20em);
+    .suites img {
+        height: 45em;
+        width: 65em;
     }
 
 
