@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
     <title>Good Dreams hotel</title>
@@ -94,23 +93,27 @@
     <section class="cadastro">
         <h1>Cadastre-se para realizar a sua reserva</h1>
         <fieldset>
-            <form action="#" method="get">
+            <form action="#" method="get" class="form">
                 <label for="nome-completo">Nome completo</label>
-                <input type="text" id="nome-completo">
+                <input type="text" id="nome-completo" class="nome-completo">
                 
                 <label for="nascimento">Data de nascimento</label>
-                <input type="text" id="nascimento" maxlength="10">
+                <input type="text" id="nascimento" class="nascimento" maxlength="10">
 
                 <label for="email">Email</label>
-                <input type="email" id="email">
+                <input type="email" class="email" id="email">
 
                 <label for="senha">Senha</label>
-                <input type="password" id="senha">
+                <input type="password" id="senha" class="senha">
 
                 <button class="enviar">Enviar</button>
             </form>
-        </fieldset>
+        </fieldset>    
     </section>
+    
+    <section class="dados_enviados"></section>
+    
+    <script src="js/cadastro.js"></script>
 </body>
 
 </html>
