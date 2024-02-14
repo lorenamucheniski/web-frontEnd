@@ -125,13 +125,13 @@ main {
     background-color: var(--cor4);
     padding: 1em 0;
     color: white;
-    
+
 }
 
 .suites {
     max-width: 75em;
     text-align: center;
-    
+
 }
 
 .suites img {
@@ -180,7 +180,10 @@ main {
 .cadastro label {
     padding-top: .5em;
 }
-.cadastro label, input, button {
+
+.cadastro label,
+input,
+button {
     font-size: 1.5em;
 }
 
@@ -190,6 +193,36 @@ main {
     align-self: flex-end;
     margin-top: 1em;
 
+}
+
+footer {
+    background-color: var(--cor2);
+    display: flex;
+    justify-content: center;
+    padding: 1em 0;
+    gap: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    gap: 3em;
+}
+
+footer i {
+    font-size: 2.5em;
+    color: white;
+}
+
+footer p i {
+    font-size: 1.5rem;
+}
+
+footer i:hover {
+    color: var(--cor3);
 }
 
 @media screen and (min-width: 46.875em) {
