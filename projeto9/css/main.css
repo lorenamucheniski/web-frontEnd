@@ -16,10 +16,8 @@
 
 .top_header {
     background-image: url(/projeto9/img/top_2.jpeg);
-    background-repeat: no-repeat;
-    background-position: bottom;
-    /*para que a imagem pegue todo o elemento*/
-    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
 
 .top_header h2 {
